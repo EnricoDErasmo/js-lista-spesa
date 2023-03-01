@@ -14,6 +14,7 @@ index = 0;
 while (index < shoppingList.length) {
 
     let newLiEl = document.createElement ("li");
+    newLiEl.style.listStyleType = "none";
     newLiEl.innerHTML = shoppingList[index];
     listEl.append(newLiEl);
 
